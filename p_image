@@ -34,7 +34,7 @@ RUN pip3 --no-cache-dir install pytorch-pretrained-bert==0.6.1 torch==1.0.1.post
 
 RUN pip3 --no-cache-dir install networkx pathlib pygraphviz
 
-RUN pip3 --no-cache-dir install torch torchvision deepdish numpy more-itertools h5py urllib3 scikit-learn skimage opencv-python pillow imutils imageio
+RUN pip3 --no-cache-dir install torch torchvision deepdish numpy more-itertools h5py urllib3 scikit-learn scikit-image opencv-python pillow imutils imageio
 
 RUN apt-get install -y git
 
