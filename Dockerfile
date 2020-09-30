@@ -10,7 +10,6 @@ FROM tensorflow/tensorflow:latest-gpu-py3
 #ENV https_proxy http://172.16.117.121:3128
 
 # Identify the maintainer of an image
-#LABEL maintainer="abhishek.abhishek@iitg.ac.in"
 LABEL version="0.1"
 LABEL description="Pytorch + some other libraries"
 #
